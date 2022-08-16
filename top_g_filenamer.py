@@ -4,12 +4,14 @@ import os
 print("Add or remove underscores from file names")
 file_extension = input("What type of files do you want to replace? Enter file extension:")
 
-for i in range(0,5):
+n = 5
+while n<6:
 
     print('Enter 1 to add underscores.\n')
 
     print('Enter 2 to remove underscores.\n')
 
+    print('Enter 3 to stop program. \n')
 
     choice = int(input('Enter your choice:'))
 
@@ -31,6 +33,8 @@ for i in range(0,5):
                     os.rename(i, newname)
         print(i)
 
+    elif (choice == 3):
+        break
 
     else:
         print('Invalid choice')
