@@ -3,6 +3,7 @@ Program to rename files in current directory ending with filename extension of y
 To run:
 
 1. With top_g_filenamer.py in directory you want to rename, execute
+
     $ python3 top_g_filenamer.py
 
 2. Enter file extension you want to rename, i.e. .docx, .pdf, .jpg
